@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1494833602 source:c:\users\asus-pc\documents\cmsc178\mp2\si.cpp
+	<graphics.h>
+	<conio.h>
+	<stdio.h>
+	<iostream>
+	<dos.h>
+	<stdlib.h>
+

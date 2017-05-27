@@ -1,0 +1,154 @@
+2016-10-04 15:48:19 ERROR  : ERROR:  malformed array literal: "The Books of Beginnings: The Emerald Atlas"
+LINE 1: ... INTO public.book(book_name, book_author) VALUES ('The Books...
+                                                             ^
+DETAIL:  Array value must start with "{" or dimension information.
+2016-10-04 15:48:45 ERROR  : ERROR:  malformed array literal: "The Books of Beginnings: The Emerald Atlas"
+LINE 1: ... INTO public.book(book_name, book_author) VALUES ('The Books...
+                                                             ^
+DETAIL:  Array value must start with "{" or dimension information.
+2016-10-04 15:49:00 ERROR  : ERROR:  malformed array literal: "The Books of Beginnings: The Emerald Atlas"
+LINE 1: ... INTO public.book(book_name, book_author) VALUES ('The Books...
+                                                             ^
+DETAIL:  Array value must start with "{" or dimension information.
+2016-10-04 15:49:03 ERROR  : ERROR:  malformed array literal: "The Books of Beginnings: The Emerald Atlas"
+LINE 1: ... INTO public.book(book_name, book_author) VALUES ('The Books...
+                                                             ^
+DETAIL:  Array value must start with "{" or dimension information.
+2016-10-04 15:49:09 ERROR  : ERROR:  malformed array literal: "The Books of Beginnings: The Emerald Atlas"
+LINE 1: ... INTO public.book(book_name, book_author) VALUES ('The Books...
+                                                             ^
+DETAIL:  Array value must start with "{" or dimension information.
+2016-10-04 15:49:14 ERROR  : ERROR:  malformed array literal: "The Books of Beginnings: The Emerald Atlas"
+LINE 1: ... INTO public.book(book_name, book_author) VALUES ('The Books...
+                                                             ^
+DETAIL:  Array value must start with "{" or dimension information.
+2016-10-04 15:49:18 ERROR  : ERROR:  malformed array literal: "The Books of Beginnings: The Emerald Atlas"
+LINE 1: ... INTO public.book(book_name, book_author) VALUES ('The Books...
+                                                             ^
+DETAIL:  Array value must start with "{" or dimension information.
+2016-10-05 19:36:19 ERROR  : ERROR:  database "TutoreCoDB" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+2016-10-06 02:24:59 ERROR  : ERROR:  invalid input value for enum gender: "Male"
+LINE 1: ...ph'::character varying(50), '092958035'::integer, 'Male'::ge...
+                                                             ^
+2016-10-06 02:25:08 ERROR  : ERROR:  invalid input value for enum gender: "Male"
+LINE 1: ...ph'::character varying(50), '092958035'::integer, 'Male'::ge...
+                                                             ^
+2016-10-06 10:10:57 ERROR  : ERROR:  insert or update on table "post" violates foreign key constraint "post_student_id_fkey"
+DETAIL:  Key (student_id)=(1) is not present in table "student".
+2016-10-06 10:11:06 ERROR  : ERROR:  insert or update on table "post" violates foreign key constraint "post_subject_id_fkey"
+DETAIL:  Key (subject_id)=(9878) is not present in table "subject".
+2016-10-06 10:11:32 ERROR  : ERROR:  insert or update on table "post" violates foreign key constraint "post_student_id_fkey"
+DETAIL:  Key (student_id)=(1) is not present in table "student".
+2016-10-06 10:11:50 ERROR  : ERROR:  insert or update on table "post" violates foreign key constraint "post_student_id_fkey"
+DETAIL:  Key (student_id)=(1) is not present in table "student".
+2016-10-06 10:12:20 ERROR  : ERROR:  insert or update on table "post" violates foreign key constraint "post_subject_id_fkey"
+DETAIL:  Key (subject_id)=(9878) is not present in table "subject".
+2016-10-06 10:12:22 ERROR  : ERROR:  insert or update on table "post" violates foreign key constraint "post_subject_id_fkey"
+DETAIL:  Key (subject_id)=(9878) is not present in table "subject".
+2016-10-06 10:12:27 ERROR  : ERROR:  insert or update on table "post" violates foreign key constraint "post_subject_id_fkey"
+DETAIL:  Key (subject_id)=(9878) is not present in table "subject".
+2016-10-06 10:12:41 ERROR  : ERROR:  insert or update on table "post" violates foreign key constraint "post_subject_id_fkey"
+DETAIL:  Key (subject_id)=(9878) is not present in table "subject".
+2016-10-06 10:15:29 ERROR  : ERROR:  insert or update on table "post" violates foreign key constraint "post_student_id_fkey"
+DETAIL:  Key (student_id)=(1) is not present in table "student".
+2016-10-06 10:15:31 ERROR  : ERROR:  insert or update on table "post" violates foreign key constraint "post_student_id_fkey"
+DETAIL:  Key (student_id)=(1) is not present in table "student".
+2016-10-06 10:16:09 ERROR  : ERROR:  insert or update on table "post" violates foreign key constraint "post_subject_id_fkey"
+DETAIL:  Key (subject_id)=(9878) is not present in table "subject".
+2016-10-10 09:40:12 ERROR  : ERROR:  insert or update on table "post" violates foreign key constraint "post_student_id_fkey"
+DETAIL:  Key (student_id)=(1) is not present in table "student".
+2016-10-10 09:40:14 ERROR  : ERROR:  insert or update on table "post" violates foreign key constraint "post_student_id_fkey"
+DETAIL:  Key (student_id)=(1) is not present in table "student".
+2016-10-10 09:40:17 ERROR  : ERROR:  insert or update on table "post" violates foreign key constraint "post_student_id_fkey"
+DETAIL:  Key (student_id)=(1) is not present in table "student".
+2016-10-10 09:40:19 ERROR  : ERROR:  insert or update on table "post" violates foreign key constraint "post_student_id_fkey"
+DETAIL:  Key (student_id)=(1) is not present in table "student".
+2016-10-10 09:40:26 ERROR  : ERROR:  insert or update on table "post" violates foreign key constraint "post_student_id_fkey"
+DETAIL:  Key (student_id)=(1) is not present in table "student".
+2016-10-10 10:18:02 ERROR  : ERROR:  null value in column "student_middlename" violates not-null constraint
+DETAIL:  Failing row contains (4, Julius, null, null, null, null, null, null, null, null, null).
+2016-10-10 10:20:21 ERROR  : ERROR:  null value in column "student_lastname" violates not-null constraint
+DETAIL:  Failing row contains (7, Cedez, Marie, null, null, null, null, null, null, null, null).
+2016-10-10 10:20:29 ERROR  : ERROR:  null value in column "student_birthdate" violates not-null constraint
+DETAIL:  Failing row contains (8, Cedez, Marie, Gulane, null, null, null, null, null, null, null).
+2016-10-10 10:20:57 ERROR  : ERROR:  null value in column "istutor" violates not-null constraint
+DETAIL:  Failing row contains (9, Cedez, Marie, Gulane, 2067-03-03, Cebu, cedezhuhuh, 9647482, female, null, null).
+2016-10-10 11:52:08 ERROR  : ERROR:  duplicate key value violates unique constraint "post_pkey"
+DETAIL:  Key (student_id)=(6) already exists.
+2016-10-10 11:53:05 ERROR  : ERROR:  duplicate key value violates unique constraint "post_pkey"
+DETAIL:  Key (student_id)=(6) already exists.
+2016-10-10 11:53:14 ERROR  : ERROR:  duplicate key value violates unique constraint "post_pkey"
+DETAIL:  Key (student_id)=(6) already exists.
+2016-10-10 11:53:20 ERROR  : ERROR:  duplicate key value violates unique constraint "post_pkey"
+DETAIL:  Key (student_id)=(6) already exists.
+2016-10-10 11:53:26 ERROR  : ERROR:  duplicate key value violates unique constraint "post_pkey"
+DETAIL:  Key (student_id)=(6) already exists.
+2016-10-10 11:53:33 ERROR  : ERROR:  duplicate key value violates unique constraint "post_pkey"
+DETAIL:  Key (student_id)=(6) already exists.
+2016-10-10 11:53:37 ERROR  : ERROR:  duplicate key value violates unique constraint "post_pkey"
+DETAIL:  Key (student_id)=(6) already exists.
+2016-10-10 11:55:43 ERROR  : ERROR:  duplicate key value violates unique constraint "post_pkey"
+DETAIL:  Key (student_id)=(6) already exists.
+2016-10-10 11:56:29 ERROR  : ERROR:  duplicate key value violates unique constraint "post_pkey"
+DETAIL:  Key (student_id)=(6) already exists.
+2016-10-11 14:43:49 ERROR  : ERROR:  new row for relation "post" violates check constraint "post_post_timestamp_check"
+DETAIL:  Failing row contains (2016-10-10 23:43:48.865062-07, 6, f, 42, Bisaya Lit, Lit).
+2016-10-11 14:43:53 ERROR  : ERROR:  new row for relation "post" violates check constraint "post_post_timestamp_check"
+DETAIL:  Failing row contains (2016-10-10 23:43:53.09681-07, 6, f, 42, Bisaya Lit, Lit).
+2016-10-11 14:47:19 ERROR  : ERROR:  new row for relation "post" violates check constraint "post_post_timestamp_check"
+DETAIL:  Failing row contains (2016-10-10 23:47:19.644459-07, 6, t, 40, Love, Secret).
+2016-10-11 14:47:29 ERROR  : ERROR:  new row for relation "post" violates check constraint "post_post_timestamp_check"
+DETAIL:  Failing row contains (2016-10-10 23:47:29.287085-07, 6, t, 40, Love, Secret).
+2016-10-11 14:47:45 ERROR  : ERROR:  invalid input syntax for type timestamp with time zone: "9:01"
+LINE 1: ... istutor, subject_id, title, description) VALUES ('9:01'::ti...
+                                                             ^
+2016-10-11 14:48:00 ERROR  : ERROR:  new row for relation "post" violates check constraint "post_post_timestamp_check"
+DETAIL:  Failing row contains (2016-10-10 23:48:00.299025-07, 6, t, 40, Love, Secret).
+2016-10-11 15:00:25 ERROR  : ERROR:  new row for relation "post" violates check constraint "post_post_timestamp_check"
+DETAIL:  Failing row contains (2016-10-11 00:00:25.038841-07, 6, t, 40, Love, Secret).
+2016-10-11 15:02:14 ERROR  : ERROR:  invalid input syntax for type timestamp with time zone: ""
+LINE 1: ...udent_id, istutor, subject_id, title, description) VALUES ('
+                                                                      ^
+2016-10-12 15:32:55 ERROR  : ERROR:  insert or update on table "post" violates foreign key constraint "post_subject_id_fkey"
+DETAIL:  Key (subject_id)=(14) is not present in table "subject".
+2016-10-12 15:33:10 ERROR  : ERROR:  insert or update on table "post" violates foreign key constraint "post_subject_id_fkey"
+DETAIL:  Key (subject_id)=(14) is not present in table "subject".
+2016-10-12 15:33:56 ERROR  : ERROR:  insert or update on table "post" violates foreign key constraint "post_student_id_fkey"
+DETAIL:  Key (student_id)=(4) is not present in table "student".
+2016-10-12 15:34:23 ERROR  : ERROR:  insert or update on table "post" violates foreign key constraint "post_student_id_fkey"
+DETAIL:  Key (student_id)=(4) is not present in table "student".
+2016-10-12 15:34:31 ERROR  : ERROR:  insert or update on table "post" violates foreign key constraint "post_student_id_fkey"
+DETAIL:  Key (student_id)=(4) is not present in table "student".
+2016-10-12 15:34:53 ERROR  : ERROR:  insert or update on table "post" violates foreign key constraint "post_student_id_fkey"
+DETAIL:  Key (student_id)=(4) is not present in table "student".
+2016-10-27 09:52:20 ERROR  : ERROR:  record "new" has no field "student"
+CONTEXT:  PL/pgSQL function update_student_column() line 3 at assignment
+2016-10-27 09:52:35 ERROR  : ERROR:  record "new" has no field "student"
+CONTEXT:  PL/pgSQL function update_student_column() line 3 at assignment
+2016-10-27 10:00:26 ERROR  : ERROR:  record "new" has no field "student"
+CONTEXT:  PL/pgSQL function update_student_column() line 3 at assignment
+2016-10-27 10:00:33 ERROR  : ERROR:  record "new" has no field "student"
+CONTEXT:  PL/pgSQL function update_student_column() line 3 at assignment
+2016-10-27 10:10:19 ERROR  : ERROR:  cannot drop function update_student_column() because other objects depend on it
+DETAIL:  trigger update_student_time on table student depends on function update_student_column()
+HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+2016-11-07 10:43:46 ERROR  : ERROR:  null value in column "student_firstname" violates not-null constraint
+DETAIL:  Failing row contains (20, null, null, null, null, null, null, null, null, null, null, null, null, 08642).
+2016-11-10 10:40:11 ERROR  : ERROR:  null value in column "tutorial_id" violates not-null constraint
+DETAIL:  Failing row contains (null, 5, 6, 41, AS, 14:59:00, 2016-01-01).
+2016-11-10 10:40:19 ERROR  : ERROR:  syntax error at end of input
+LINE 1: DELETE FROM public.tutorial WHERE 
+                                          ^
+2016-11-10 10:40:23 ERROR  : ERROR:  null value in column "tutorial_id" violates not-null constraint
+DETAIL:  Failing row contains (null, 5, 6, 41, AS, 14:59:00, 2016-01-01).
+2016-11-10 10:40:25 ERROR  : ERROR:  null value in column "tutorial_id" violates not-null constraint
+DETAIL:  Failing row contains (null, 5, 6, 41, AS, 14:59:00, 2016-01-01).
+2016-11-10 10:40:47 ERROR  : ERROR:  null value in column "tutorial_id" violates not-null constraint
+DETAIL:  Failing row contains (null, null, null, null, null, null, null).
+2016-11-10 10:40:49 ERROR  : ERROR:  null value in column "tutorial_id" violates not-null constraint
+DETAIL:  Failing row contains (null, null, null, null, null, null, null).
+2016-12-07 15:35:33 ERROR  : ERROR:  update or delete on table "conversation" violates foreign key constraint "message_message_ip_fkey" on table "message"
+DETAIL:  Key (convo_ip)=(76) is still referenced from table "message".
+2016-12-08 07:48:48 ERROR  : ERROR:  update or delete on table "student" violates foreign key constraint "tutorial_tutee_upmail_fkey" on table "tutorial"
+DETAIL:  Key (student_upmail)=(cgpiao5@up.edu.ph) is still referenced from table "tutorial".

@@ -1,0 +1,47 @@
+Lab Exam
+
+Arrays [5pts]
+Given two sorted arrays A and B with size m and n, respectively, merge the two arrays in a sorted order. One solution is to insert B elements into A and if needed shift elements in A to give way for elements in B. But that solution will take long especially if all the elements in B are less than A. For every element in B, you will shift element in A m steps and that is O(n*m) worst-case. Devise an algorithm that runs in O(m+n) in the worst-case. You are allowed to create a new array. (Hint: There should be no nested loops in your code.)
+
+Download this file and fill in the method merge.
+Input:
+A = {1 2 5 6 7}
+B = {2 3 4 4}
+Output:
+C = {1 2 2 3 4 4 5 6 7}
+
+Linkedlist [5pts]
+Given a list (starting at the head), reverse the list destructively. By “destructively”, this should reverse the next pointers of the list nodes and should not create a new list. There should be no creation of new nodes in your code.
+
+Input: 
+	L = 1 -> 2 -> 3 -> 4
+Output:
+	L = 4 -> 3 -> 2 -> 1
+
+Download this file and fill in the method reverse.
+
+
+Stacks [5 pts]
+Postfix expression is the form ABO where A and B are numbers or also postfix expression and O is operator ( +, -, *, / ). Given an infix expression like 2+5 - 4, this is usually converted into a postfix expression and the final answer is easily computed using a stack. Implement this postfix evaluation using a stack. Please see below an example of a postfix expression and how the evaluation goes. 
+
+Ex: 4 5 2 + -
+Evaluation:
+2 + 5 = 7 
+7 - 4 = 3
+Output: 3
+
+Download this file and implement the method evaluate. 
+
+Trees [5 pts]
+The height of a node is defined as the length of longest path from that node to its descendant. Specifically, in a binary tree, the height of a node is the longer path between height of the left subtree and the height of the right subtree plus one (the one accounts for the length of path from this node to the left or right subtree). In simplified terms, 
+
+height of node = max(height(left subtree), height(right subtree)) + 1
+
+Since this definition of height is recursive, the stopping criterion must be provided. In this case, the recursion stops when the node is null returning -1. Give it a thought why -1.
+
+Examples:
+height of leaf nodes: 0
+height of tree = maximum(height(left subtree), height(right subtree)) + 1
+
+Download this file and implement the method height. 
+

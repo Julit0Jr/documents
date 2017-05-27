@@ -1,0 +1,25 @@
+class Balancing{
+	public static final String OPEN = "{([";
+	public static final String CLOSE = "}])";
+
+	public static void main(String[] args){
+		String[] a = {"[]","{{","{)(}","{","{}[]","{{}","{[}]","(/","{({[]})}","{([)]}"};
+		for(String str:a){
+			System.out.println(str+":"+isBalanced(str));
+		}
+	}
+	public static boolean isBalanced(String s){
+		//code here
+	}
+
+	// Output: []:true
+	// {{:false
+	// {)(}:false
+	// {:false
+	// {}[]:true
+	// {{}:false
+	// {[}]:false
+	// (/:false
+	// {({[]})}:true
+	// {([)]}:false
+}

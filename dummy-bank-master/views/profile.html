@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Profile | Dummy Bank</title>
+        <link rel="stylesheet" href="/static/stylesheets/main.css">
+    </head>
+
+    <body>
+        <p>{{ messages.statusMessage }}</p>
+        <h1>{{user.name}}</h1>
+        <h2>{{ user.email }}</h2>
+        <a href="/signout">Sign Out</a>
+        <div class="modal fade" id="transferformModal" tabindex="-1" role="dialog" aria-labelledby="transferformModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <form method="post" action="/transfer">
+                  <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Transfer Money to other User</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div>
+                        <label for="recipient">Transfer To</label>
+                        <input type="text" name="recipient" id="recipient">
+                    </div>
+                    <div>
+                        <label for="amount">Transfer Amount</label>
+                        <input type="number" name="amount" id="amount">
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button>Confirm</button>
+                  </div>
+                </form>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="depositformModal" tabindex="-1" role="dialog" aria-labelledby="depositformModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <form method="post" action="/deposit">
+                  <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Deposit Money</h4>
+                  </div>
+                  <div class="modal-body">
+                     <div>
+                        <label for="deposit">Deposit Amount</label>
+                        <input type="number" name="amount" id="amount">
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                        <button>Confirm</button>
+                  </div>
+                </form>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="withdrawformModal" tabindex="-1" role="dialog" aria-labelledby="withdrawformModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <form method="post" action="/withdraw">
+                  <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Withdraw Money</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div>
+                        <label for="withdraw">Withdraw Amount</label>
+                        <input type="number" name="amount" id="amount">
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                        <button>Confirm</button>
+                  </div>
+                </form>
+            </div>
+          </div>
+        </div>
+    </body>
+</html>
